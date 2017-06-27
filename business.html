@@ -92,13 +92,10 @@
               </dl>
               <dl>
                 <dd>
-                  <a hotrep="hp.header.product.storage1" href="#">业务</a>
-                </dd>                
-                <dd>
-                  <a hotrep="hp.header.product.storage1" href="#">基金</a>
+                  <a hotrep="hp.header.product.storage1" href="#">基金管理</a>
                 </dd>
                 <dd>
-                  <a href="products.html" hotrep="hp.header.product.storage1" href="#">项目</a>
+                  <a hotrep="hp.header.product.storage1" href="#">资产管理</a>
                 </dd>
               </dl>
             </div>
@@ -111,34 +108,17 @@
       </banner>
       <article class="business-box">
         <div class="container row">
-         <!--  <ul class="nub">
-            <li class="ho">
-              <a href="javascript:void(0)">
-                <i>城</i>
-                <i>市</i>
-                <i>更</i>
-                <i>新</i>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)">
-                <i>特</i>
-                <i>殊</i>
-                <i>机</i>
-                <i>会</i>
-              </a>
-            </li>
-          </ul> -->
-          <div class="business-wrap">
-            <div class="tab1-title">
-              <div class="fl">
-                <span>业务—城市更新</span>
-              </div>
+          <div class="project-title">
+            <div class="all-title">
+              <span>投资策略</span>
               <div class="fr">
-                <a href="">首页</a>
-                <a href="">我们的业务</a>
-              </div>                  
-            </div> 
+                <a href="home-page.html">首页</a>
+                <span class="all-line"></span>
+                <a href="#">我们的业务</a>
+              </div>
+            </div>                            
+          </div><!-- project-title end --> 
+          <div class="business-wrap">
             <!-- 城市更新的内容 start -->
             <div class="active page" id="page_table_1">        
               <div class="tab1-brand row">
@@ -337,11 +317,6 @@
       $(function(){
         var win=$(window); 
         var sc=$(document);
-        $(".nub>li>a").click(function(){
-          var index=$(this).parent().index()+1;
-          $(this).parent().addClass("ho").siblings().removeClass("ho");
-          $("#page_table_"+index).addClass("active").siblings().removeClass("active");
-        })
         win.scroll(function(){
           if(sc.scrollTop()>=70){
            $(".flex-nav").css("display","block");
