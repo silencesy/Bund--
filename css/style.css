@@ -910,6 +910,113 @@ a:active {
 /*---------- project end -----------*/ 
 
 
+/*---------- management-team start -----------*/ 
+
+.team-article {
+    background: url(../images/team-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.team-article .team-content {
+    padding-top: 48px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.6);
+}
+
+.team-article .team-content .col-lg-4 {
+    padding: 0;
+}
+
+.team-article .team-content .col-lg-4:nth-child(2) img {
+    // margin-left: -12px;
+    // margin-top: -18px;
+    width: 100%;
+}
+
+.team-article .team-content .last ul li {
+    text-align: left;
+}
+
+.team-article .team-content .last ul li img {
+    float: left;
+}
+
+.team-article .team-content .last ul li:first-child img,
+.team-article .team-content .last ul li:last-child img {
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+.team-article .team-content .last ul li:nth-child(2) img {
+    margin-left: 40px;
+    margin-right: 12px;
+}
+
+.team-article ul li {
+    text-align: right;
+    margin-bottom: 43px;
+}
+
+.team-article .team-content .col-xs-12 {
+    text-align: center;
+}
+
+.team-article .team-content .col-xs-12 span {
+    display: inline-block;
+    width: 260px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #427B84;
+    color: #fff;
+    border-radius: 8px;
+    margin: 6px 0 36px 0;
+
+}
+
+
+.team-article ul li p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #666;
+}
+
+.team-article ul li>img {
+    float: right;
+}
+
+.team-article ul li:nth-child(1) img {
+    margin-left: 12px;
+}
+
+.team-article ul li:nth-child(2) img {
+    margin-left: 12px;
+    margin-right: 40px;
+}
+
+.team-article ul li:nth-child(3) img {
+    margin-left: 12px;
+}
+
+
+
+.team-article ul li p b {
+    margin-right: 7px;
+}
+
+.team-article ul li p:first-child {
+    font-size: 16px;
+    line-height: 30px;
+    color: #444;
+}
+
+
+
+
+/*---------- management-team end -----------*/ 
+
+
 
 
 
