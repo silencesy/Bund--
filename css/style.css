@@ -501,10 +501,10 @@ a:active {
     text-align: center;
 }
 .tab1-img >div:nth-of-type(1) p, .tab1-img >div:nth-of-type(1) span {
-    margin-left: -5%;
+    margin-left: -9%;
 }
 .tab1-img >div:nth-of-type(2) p, .tab1-img >div:nth-of-type(2) span {
-    margin-left: 15%;
+    margin-left: 0%;
 }
 .tab1-img >div:nth-of-type(3) p, .tab1-img >div:nth-of-type(3) span {
     margin-left: 7%;
@@ -857,7 +857,7 @@ a:active {
     height: 45px;
 }
 .pro-title span {
-    background-color: #ae8b51;
+    background-color: #427B84;
     color: #fff;
     font-size: 18px;
     display: inline-block;
@@ -882,40 +882,112 @@ a:active {
     padding-bottom: 0;
 }
 
-
 .project-title {
-    background-color: rgba(251, 248, 250, 0.5);
+   background: rgba(255,255,255,0.6);
 }
-.project-title .fl {
-    background-color: rgba(255,255,255,0.5);
+.all-title {
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    border-top: 2px solid #427B84;
 }
-.project-title .fl span {
-    color: #444;
+.all-title >span {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     display: inline-block;
-    width: 100%;
-    height: 100%;
+    color: #427B84;
+    font-size: 20px;
+    font-weight: 700;
 }
-.project-title .ho {
-    background-color: #ae8b51;
+.all-title .pro-span {
+    width: 120px;
 }
-.project-title .ho span {
-    color: #fff;
+.all-title .fr .all-line {
+    height: 14px;
+    border-left: 1px solid #a1a1a1;
 }
-.project-box .page {
-    display: none;
-}
-.project-box .active {
-    display: block;
+.all-title .fr a {
+    padding: 0 20px;
+    font-size: 14px;
+    color: #666;
+    height: 16px;
 }
 /*---------- project end -----------*/ 
 
 
+/*---------- background start -----------*/ 
+.bg-container {
+    background: rgba(255,255,255,0.6);
+    margin-bottom: 20px;
+}
+.bg-content {
+    padding: 20px 0;
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bg-title {
+    font-size: 16px;
+    color: #427B84;
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+.bg-circle {
+    max-width: 770px;
+    border: 1px solid #427B84;
+    padding: 20px 15px;
+    position: relative;
+    margin: 0;
+}
+.bg-span {
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
+}
+.bg-p {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    color: #427B84;
+    font-weight: 700;
+    width: 185px;
+    height: 20px;
+    top: -11%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #eaeaea;
+}
+.bg-two {
+    max-width: 770px;
+    margin: 40px 0 0 0;
+}
+.bg-half {
+    border: 1px solid #bfbfbf;
+    padding: 20px 15px;
+    position: relative;
+    height: 150px;
+    width: 48%;
+}
+.bg-half .bg-p-title {
+    top: -7%;
+    color: #444;
+}
+.bg-two .bg-half:nth-of-type(1) {
+    margin-right: 30px;
+} 
 
 
-
-
-
-
+/*---------- background end -----------*/ 
 
 
 /***================  响应式  ================***/
@@ -1133,10 +1205,10 @@ a:active {
         margin-left: 32%;
     }
     .tab1-img >div:nth-of-type(2) p {
-        margin-left: 30%;
+        margin-left: 25%;
     }
     .tab1-img >div:nth-of-type(1) p {
-        margin-left: 11px;
+        margin-left: 13px;
     }
     .tab1-img >div {
         padding: 0 5px;
@@ -1206,8 +1278,25 @@ a:active {
     .mejs__container {
         background: #fff !important;
     }
+    
+    .all-title >span {
+        position: static;
+    }
+    
+    .bg-half {
+        width: 100%;
+    }
 
-
+    .bg-circle {
+        margin: 0 0 20px 0;
+    }
+    .bg-p {
+        top: -7%;
+        background: #f1eef0;
+    }
+    .bg-two .bg-half:nth-of-type(1) {
+        margin-bottom: 20px;
+    }
  
 }
 /*---------- pc小屏幕 --------*/ 
@@ -1399,7 +1488,20 @@ a:active {
     .project-content .col-xs-12 {
         margin-top: 10px;
     }
-    
+    .bg-half {
+        width: 100%;
+    }
+
+    .bg-circle {
+        margin: 0 0 20px 0;
+    }
+    .bg-p {
+        top: -7%;
+        background: #e8e8e8;
+    }
+    .bg-two .bg-half:nth-of-type(1) {
+        margin-bottom: 20px;
+    }
 
 
 
