@@ -456,7 +456,7 @@ a:active {
     width: 100%;
     height: 100%;
     float: left;
-    background-color: rgba(251, 248, 250, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .tab1-title {
     width: 100%;
@@ -769,8 +769,7 @@ a:active {
     overflow: hidden;
 }
 .huanqiu-content li i {
-    color: #ae8b51;
-    // padding-right: 5px;
+    color: #427B84;
     margin-right: 3px;
     font-style: normal;
     width: 2%;
@@ -1024,7 +1023,18 @@ a:active {
     color: #444;
 }
 
-
+.see-more {
+    display: inline-block;
+    border: 1px solid #a1a1a1;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.see-more >a {
+    font-size: 14px;
+    color: #666;
+}
 
 
 /*---------- management-team end -----------*/ 
@@ -1094,10 +1104,166 @@ a:active {
 .bg-two .bg-half:nth-of-type(1) {
     margin-right: 30px;
 } 
-
-
-
 /*---------- background end -----------*/ 
+
+/*---------- contact-us start -----------*/ 
+.contact-container .contact-content {
+    max-width: 450px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.contact-content .contact-p {
+    top: -8%;
+}
+.contact-content .contact-circle {
+    padding: 30px 15px;
+}
+.contact-content .contact-div {
+    text-align: left;
+    margin-left: 26%;
+    line-height: 30px;
+}
+.contact-div p {
+    font-size: 14px;
+    color: #666;
+}
+/*---------- contact-us end -----------*/ 
+
+/*---------- fund-manage start -----------*/ 
+.fund-container  {
+    background: rgba(255,255,255,0.6);
+    margin-bottom: 20px;
+    padding: 50px 25px;
+}
+.fund-p {
+    font-size: 16px;
+    color: #427B84;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.fund-span {
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
+}
+
+.all-title .fun-title {
+    width: 195px;
+}
+
+.assets-p {
+    font-size: 16px;
+    color: #427B84;
+    font-weight: 700;
+}
+/*---------- fund-manage end -----------*/ 
+
+/*---------- news start -----------*/ 
+.all-title .news-title {
+    width: 100px;
+}
+.news-container {
+    text-align: center;
+    padding: 30px 9%;
+}
+.news-p a {
+    display: inline-block;
+    font-size: 16px;
+    color: #444;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.news-span {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.news-span a {
+    font-size: 14px;
+    color: #666;   
+}
+.news-img {
+    width: 100%;
+}
+
+.all-news2 {
+    background: rgba(255,255,255,0.6);
+    margin-bottom: 20px;
+    height: 50px;
+    position: relative;
+    height: auto;
+}
+.all-news2 .news2-right {
+    width: 100%;
+    text-align: right;
+    line-height: 50px;
+}
+.all-news2 .news2-right a {
+    padding: 0 20px;
+    font-size: 14px;
+    color: #666;
+    height: 16px;
+}
+.all-news2 .all-line {
+    height: 14px;
+    border-left: 1px solid #a1a1a1;
+}
+
+.news2-content {
+    padding: 0 9% 20px 9%;
+}
+.news2-rics {
+    font-size: 20px;
+    font-weight: 700;
+    color: #444;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.news2-author {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 14px;
+} 
+.author {
+    padding-right: 20px;
+    display: inline-block;
+}
+.news2-eng {
+    text-indent: 26px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.news2-person {
+    padding: 20px 0;
+}
+.news2-person >img {
+    width: 100%;
+}
+.news2-last {
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.news2-footer {
+    overflow: hidden;
+    padding: 0 20px 20px 20px;
+}
+
+.news1-person {
+    padding: 10px 0 0 0;
+}
+.news1-person >img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.news1-person >img:last-child {
+    margin-bottom: 0;
+}
+.news1-video {
+    margin: 20px 15%;
+}
+
+/*---------- news end -----------*/ 
+
 
 
 /***================  响应式  ================***/
@@ -1407,6 +1573,23 @@ a:active {
     .bg-two .bg-half:nth-of-type(1) {
         margin-bottom: 20px;
     }
+
+    .news2-footer .pull-left,.news2-footer .pull-right { 
+        float: none !important;
+    }
+    .news2-footer .pull-left {
+        padding-bottom: 10px;
+    }
+    .news2-footer a {
+        display: block;
+    }
+    .news2-rics {
+        line-height: 32px;
+    }
+
+
+
+
  
 }
 /*---------- pc小屏幕 --------*/ 

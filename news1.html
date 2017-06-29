@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>background</title>
+    <title>news1</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/demo.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -109,45 +109,45 @@
       </div>
       <!-- 头部部分结束 -->
       <banner class="business-banner">
-        <img src="images/bg-banner.png" alt="">
+        <img src="images/news-banner.png" alt="">
       </banner>
       <article class="business-box project-box">
-        <div class="container row">
-          <div class="project-title">
-            <div class="all-title">
-              <span>背景介绍</span>
-              <div class="fr">
-                <a href="home-page.html">首页</a>
-                <span class="all-line"></span>
-                <a href="#">关于邦恩德</a>
-              </div>
-            </div>                            
-          </div><!-- project-title end -->
-          <div class="bg-container"> 
-            <div class="row bg-content">
-              <span class="bg-title">邦恩德资本是一家专注于综合体，高端商业地产投资、开发的基金投资和管理公司。</span>
-              <div class="bg-circle row">
-                <p class="bg-p">邦恩德资本管理团队</p>
-                <span class="bg-span">
-                  邦恩德资本管理团队成员具有在花旗集团、麦格理银行、宏璟资本等国际知名企业进行房地产投资、开发的经历，资深管理团队的从业经验均在10 - 20年，在国内外房地产投资管理、资产管理领域均具有丰富经验和广泛人脉。
-                </span>
-              </div> 
-              <div class="row bg-two">
-                <div class="bg-half col-md-6">
-                  <p class="bg-p bg-p-title">投资基金管理人</p>
-                  <span class="bg-span">
-                    投资基金管理人：邦恩德资本在2014年完成其第一个人民币基金的募集，至2016年末，基金总规模共人民币15.5亿元，已全部投资完毕。
-                  </span>                  
+        <div class="container row">          
+          <div class="all-news2">
+            <div class="news2-right">
+              <a href="home-page.html">首页</a>
+              <span class="all-line"></span>
+              <a href="#">新闻和媒体</a>
+            </div>
+            <div class="news2-content">
+              <p class="news2-rics">118米环球西安中心定向爆破拆除 成“全国第一爆”</p>
+              <p class="news2-author">
+                <span class="author">作者：邦恩德 </span>
+                <span>发表：2016年11月15日</span>
+              </p>
+              <div>
+                <p class="news2-eng">11月15日7时，西安市高新二路16号高层建筑定向爆破拆除获得圆满成功。这是目前国内城市爆破拆除中最高的楼房，成为“全国第一爆”。据了解，被爆破拆除的大楼地下1层、地上26层、高118米，总建筑面积37,000多平方米，仅完成主体和外立面建设，至今未正式投用。目前，因闲置时间较长，该大楼已不具备改造使用条件。</p>
+                <!-- video start -->
+                <div class="row news1-video">
+                  <video id="mediaVideo" width="100%" poster="images/pro_video2.jpg" controls crossorigin>
+                      <source src="video/720.mp4" type="video/mp4">
+                  </video>                  
                 </div>
-                <div class="bg-half col-md-6">
-                  <p class="bg-p bg-p-title">资产管理人</p>
-                  <span class="bg-span">
-                    资产管理人：邦恩德资本从项目的总体设计，到项目公司投资架构的完善，以及项目的法务，税务计划安排等，都是由邦恩德资本的专业团队通过与国内外知名顾问公司的合作而不断完善/改进，并付诸实施。
-                  </span>                   
-                </div>                
+                <!-- video end -->
+                <p class="news2-eng">未来，将在该大楼原址建造环球西安中心，一个集商务，休闲，娱乐和居住为一体的综合体项目，包括地下4层停车和商业，地上180米左右三栋超高层。</p>
+
+                <div class="news2-person news1-person">
+                  <img src="images/news1-1.png" alt="">
+                  <img src="images/news1-2.png" alt="">
+                  <img src="images/news1-3.png" alt="">                  
+                </div>
               </div>
-            </div><!-- bg-content end -->   
-          </div><!-- bg-container end -->    
+            </div><!-- news2-content end --> 
+            <div class="news2-footer">
+                <a href="" class="pull-left">上一篇：暂无 </a>
+                <a href="" class="pull-right">下一篇：RICS：年度最佳交易优秀奖</a>
+            </div><!-- news2-footer end --> 
+          </div><!-- all-news2 end -->                                      
         </div><!-- row end -->
       </article>
       <!-- 底部部分开始 -->
@@ -226,10 +226,12 @@
             </div>
         </nav>
     <!-- 移动端nav结束 -->
-    <script src="node_modules/jquery/dist/jquery-1.9.1.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/common/nav.js"></script>
-    <script src="node_modules/imgbox/zoom.min.js"></script>
+    <script src="node_modules/plyr/plyr.js"></script>
+    <script src="node_modules/anchor/jquery.anchorScroll.min.js"></script>
+    <script src="node_modules/common/common.js"></script>
     <script>
       $(function(){
         var win=$(window); 
