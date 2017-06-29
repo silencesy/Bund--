@@ -364,33 +364,14 @@
            $(".flex-nav").css("display","none");
           }
         }); 
-<<<<<<< HEAD
-=======
 
-        // tab切换
-        var win=$(window); 
-        var sc=$(document);
-        $(".nub>div>span").click(function(){
-          var index=$(this).parent().index()+1;
-          $(this).parent().addClass("ho").siblings().removeClass("ho");
-          $("#change-"+index).addClass("active").siblings().removeClass("active");
-        })
 
-        $('.project-title>.fl').on('click',function(){
-            $('.project-title>span').hide();
-            if($(this).index()==0){
-              $('.two-line').show();
-            }
-            if($(this).index()==4){
-              $('.one-line').show();
-            }            
-        })
-
+    
       if($(window).width()>992){
         plyr.setup('video');
       }        
   
->>>>>>> 588af2d6fce6692a2ad91ee037ef7e8b5c4da4db
+
       })
     </script>
   </body>
