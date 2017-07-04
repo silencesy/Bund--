@@ -241,15 +241,17 @@ a:active {
     font-weight: 200;
 }
 .top-nav-ul .col-sm-2 {
-    width: 16.5%;
+    // width: 16.5%;
     text-align: center;
     padding: 0;
+    width: auto;
 }
 .header .top-nav-ul > li > a {
     display: inline-block;
     height: 100%;
     font-size: 16px;
     color: #222;
+    padding: 0 35px;
 }
 
 .header .top-nav-ul li a:hover {
@@ -258,9 +260,6 @@ a:active {
 
 .header .top-nav-ul li a.active {
     color: #e60012;
-}
-.header .top-nav-ul .dropdown-menu li a {
-   
 }
 .header .top-nav-ul .dropdown-menu {
     top: 55px;
@@ -395,10 +394,6 @@ a:active {
 .news2-bkg {
     background-image: url(../images/news2-bg_02.png);
 }
-.index-bkg {
-    background-image: url(../images/index-bg_02.png);
-}
-
 
 
 /*---------- 页面背景图 end -----------*/ 
@@ -973,36 +968,36 @@ a:active {
     padding-bottom: 20px;
 }
 
-.team-article .team-content .xxx {
+.team-article .xxx {
     background: rgba(255,255,255,0.6);
     padding-top: 48px;
 }
 
-.team-article .team-content .col-lg-4 {
+.team-article .col-lg-4 {
     padding: 0;
 }
 
-.team-article .team-content .col-lg-4:nth-child(2) img {
+.team-article .col-lg-4:nth-child(2) img {
     margin-left: -12px;
     margin-top: -9px;
     width: 106%;
 }
 
-.team-article .team-content .last ul li {
+.team-article .last ul li {
     text-align: left;
 }
 
-.team-article .team-content .last ul li img {
+.team-article .last ul li img {
     float: left;
 }
 
-.team-article .team-content .last ul li:first-child img,
-.team-article .team-content .last ul li:last-child img {
+.team-article .last ul li:first-child img,
+.team-article .last ul li:last-child img {
     margin-right: 12px;
     margin-left: 0;
 }
 
-.team-article .team-content .last ul li:nth-child(2) img {
+.team-article .last ul li:nth-child(2) img {
     margin-left: 40px;
     margin-right: 12px;
 }
@@ -1012,11 +1007,11 @@ a:active {
     margin-bottom: 43px;
 }
 
-.team-article .team-content .col-xs-12 {
+.team-article .col-xs-12 {
     text-align: center;
 }
 
-.team-article .team-content .col-xs-12 span {
+.team-article .col-xs-12 span {
     display: inline-block;
     width: 260px;
     height: 47px;
@@ -1940,10 +1935,10 @@ a:active {
         width: 31.8%;
     }
     .nav-l1 {
-        margin-left: 30% !important;
+        margin-left: 28% !important;
     }
     .nav-l2 {
-        margin-left: 39% !important;
+        margin-left: 38% !important;
     }
 }
 
@@ -1965,6 +1960,15 @@ a:active {
     .team-article .team-content .col-lg-4:nth-child(2) img {
         margin-top: 57px;
     }
+
+    .navigation-up .navigation-v3 li h2 a {
+        padding: 0 17px;
+    }
+    .header .top-nav-ul > li > a {
+        padding: 0 25px;
+    }
+
+
 }
 
 @media screen and (max-width: 991px) {
