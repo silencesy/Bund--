@@ -936,4 +936,10 @@ html,body,.banner,.banner-content{
 
 
 
-
+.index-bkg {
+    background-image: url(../images/index-bg_02.png);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size:cover;
+}
