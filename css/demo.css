@@ -27,13 +27,13 @@ width: 100%;
 .navigation-up .navigation-v3 li h2 a{color:#444;display:inline-block;height:80px;font-family:"microsoft yahei";padding: 0 29px;}
 
 .navigation-down{position:absolute;top:60px;left:0px;width:100%;}
-.navigation-down .nav-down-menu{width:100%;margin:0;background:rgba(255,255,255,0.7);position:absolute;top:20px;}
+.navigation-down .nav-down-menu{width:100%;margin:0;background:rgba(255,255,255,0.7);position:absolute;top:20px;padding: 10px 0;}
 .navigation-down .nav-down-menu .navigation-down-inner{margin:auto;width:1200px;position:relative;}
 .navigation-down .nav-down-menu dl{float:left;}
 
 .navigation-down .menu-1 dt{font:normal 16px "microsoft yahei";color:#444;padding-bottom:10px;border-bottom:1px solid red;margin-bottom:10px;font-weight: 700;}
-.navigation-down .menu-1 dd a{color:#444;font:normal 14px/30px "microsoft yahei";font-weight: 700;}
+.navigation-down .menu-1 dd a{color:#444;font:normal 14px/30px "microsoft yahei";font-weight: 700;display: inline-block;padding: 5px 0px;}
 .navigation-down .menu-1 dd a:hover{color:red;}
 
 .nav-l1{margin:6px 55px 0 405px !important;}
-.nav-l2{margin:6px 76px 0 550px !important;}
+.nav-l2{margin:6px 65px 0 550px !important;}
