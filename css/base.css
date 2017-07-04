@@ -941,6 +941,12 @@ html,body,.banner,.banner-content{
     }
 }
 
+@media screen and (max-width: 992px) {
+    .footer .foot-content {
+        padding: 0 15px;
+    }
+}
+
 
 
 
