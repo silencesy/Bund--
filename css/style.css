@@ -905,6 +905,52 @@ a:active {
     color: #666;
     height: 16px;
 }
+
+.proswiper {
+    width: 1130px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+
+.swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+.swiper-pagination-bullet-active {
+    background: #417B83;
+}
+
+.swiper-pagination-bullet {
+    background: #B6B6B6;
+}
+
+.swiper-pagination {
+    position: relative;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-top: 15px;
+    bottom: 0px;
+}
+
+.swiper-container .swiper-slide span {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.proswiper img {
+    width: 100%;
+    height: 100%;
+}
 /*---------- project end -----------*/ 
 
 
@@ -1651,12 +1697,18 @@ a:active {
     .project-wrap {
         width: 100%;
     }
+
+    .lunbo {
+        padding: 0 15px;
+    }
+
     .project-content .col-md-5 {
         padding: 0;
         margin-top: 10px;
+        padding: 0 15px;
     }
     .project-content .col-md-7 {
-        padding: 5px 10px;
+        padding: 5px 15px;
     }
 
     .project-wrap {
@@ -2091,3 +2143,16 @@ a:active {
 
 
 }
+
+@media screen and (max-width: 992px) {
+    .foot .foot-content {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .all-title{
+        padding-left: 15px;
+    }
+}
+

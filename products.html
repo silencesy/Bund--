@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title> </title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/demo.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -269,7 +271,63 @@
             </div><!-- project-content end -->                       
             </div><!-- wrap end --> 
           </div><!-- change-1 end -->
+          <div class="business-wrap project-wrap lunbo">
+              <div class="pro-title">
+                <span>开发日志</span>
+              </div>                    
+              <!-- Swiper -->
+              <div class="swiper-container proswiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="#"><img src="images/log1.png" alt=""></a>
+                        <span>西安第一高宅 ：“第址”即将拔地而起</span>
+                      </div>
+                      <div class="swiper-slide"><a href="#">
+                        <img src="images/log2.png" alt=""></a>
+                        <span>中奖号码｜快带上你的明信片来领奖吧！</span>
+                      </div>
+                       <div class="swiper-slide">
+                        <a href="#"><img src="images/log1.png" alt=""></a>
+                        <span>西安第一高宅 ：“第址”即将拔地而起</span>
+                      </div>
+                      <div class="swiper-slide"><a href="#">
+                        <img src="images/log2.png" alt=""></a>
+                        <span>中奖号码｜快带上你的明信片来领奖吧！</span>
+                      </div>
+                       <div class="swiper-slide">
+                        <a href="#"><img src="images/log1.png" alt=""></a>
+                        <span>西安第一高宅 ：“第址”即将拔地而起</span>
+                      </div>
+                      <div class="swiper-slide"><a href="#">
+                        <img src="images/log2.png" alt=""></a>
+                        <span>中奖号码｜快带上你的明信片来领奖吧！</span>
+                      </div>
+                       <div class="swiper-slide">
+                        <a href="#"><img src="images/log1.png" alt=""></a>
+                        <span>西安第一高宅 ：“第址”即将拔地而起</span>
+                      </div>
+                      <div class="swiper-slide"><a href="#">
+                        <img src="images/log2.png" alt=""></a>
+                        <span>中奖号码｜快带上你的明信片来领奖吧！</span>
+                      </div>
+                       <div class="swiper-slide">
+                        <a href="#"><img src="images/log1.png" alt=""></a>
+                        <span>西安第一高宅 ：“第址”即将拔地而起</span>
+                      </div>
+                      <div class="swiper-slide"><a href="#">
+                        <img src="images/log2.png" alt=""></a>
+                        <span>中奖号码｜快带上你的明信片来领奖吧！</span>
+                      </div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+                  <!-- Add Navigation -->
+                  <div class="swiper-button-prev swiper-button-white"></div>
+                  <div class="swiper-button-next swiper-button-white"></div>
+              </div>
+            </div>
         </div><!-- row end -->
+        
       </article>
       <!-- 底部部分开始 -->
       <footer class="foot">
@@ -353,6 +411,7 @@
     <script src="node_modules/plyr/plyr.js"></script>
     <!-- <script src="node_modules/plyr/plyr-page.js"></script> -->
     <script src="node_modules/imgbox/zoom.min.js"></script>
+    <script src="node_modules/swiper/swiper.min.js"></script>
     <script>
       $(function(){
         var win=$(window); 
@@ -370,7 +429,20 @@
       if($(window).width()>992){
         plyr.setup('video');
       }        
-  
+      
+
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay : 5000,
+        speed:500,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView : $(window).width()<768?1:2,
+        slidesPerGroup : $(window).width()<768?1:2,
+        spaceBetween : $(window).width()<768?0:19,
+      });
 
       })
     </script>
