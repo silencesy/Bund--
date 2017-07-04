@@ -1967,7 +1967,7 @@ a:active {
         height: auto;
     }
 
-    .team-article .team-content .col-lg-4:nth-child(2) img {
+    .team-article .col-lg-4:nth-child(2) img {
         margin-top: 57px;
     }
 
@@ -2158,6 +2158,14 @@ a:active {
 @media screen and (max-width: 992px) {
     .foot .foot-content {
         padding: 0 15px;
+    }
+
+    .team-article .col-lg-4 {
+        text-align: center;
+    }
+
+    .team-article .col-lg-4:nth-child(2) img {
+        width: 80%;
     }
 }
 
