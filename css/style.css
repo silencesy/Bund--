@@ -351,9 +351,57 @@ a:active {
     height: 400px;
 }
 .business-box {
-    background-image:url(../images/bg.jpg);
+    background-image:url(../images/touzicelue-bg_04.png);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size:cover;
     padding: 20px 0;
 }
+/*---------- 页面背景图 start -----------*/ 
+.team-bkg {
+    background-image: url(../images/team-bg_02.png);
+}
+.bg-bkg {
+    background-image: url(../images/bg-bg_02.png);
+}
+.manage-bkg {
+    background-image: url(../images/guanlituandui-bg_02.png);
+}
+.products-bkg {
+    background-image: url(../images/xiangmu_02.png);
+}
+.assets-bkg {
+    background-image: url(../images/zichan-bg_02.png);
+}
+.contact-bkg {
+    background-image: url(../images/lianxi-bg_02.png);
+}
+.fund1-bkg {
+    background-image: url(../images/fund1-bg_02.png);
+}
+.fund2-bkg {
+    background-image: url(../images/fund2-bg_02.png);
+}
+.news-bkg {
+    background-image: url(../images/news-bg_02.png);
+}
+.news1-bkg {
+    background-image: url(../images/news1-bg_02.png);
+}
+.news2-bkg {
+    background-image: url(../images/news2-bg_02.png);
+}
+.news2-bkg {
+    background-image: url(../images/news2-bg_02.png);
+}
+.index-bkg {
+    background-image: url(../images/index-bg_02.png);
+}
+
+
+
+/*---------- 页面背景图 end -----------*/ 
 .business-box .container {
     padding: 0;
     overflow: hidden;
@@ -491,6 +539,7 @@ a:active {
 }
 .contentbox-four {
     margin: 0;
+    padding-left: 5px;
 }
 .contentbox-four .col-md-4 {
     width: 32.3%;
@@ -974,7 +1023,6 @@ a:active {
 .see-more {
     display: inline-block;
     border: 1px solid #a1a1a1;
-    padding: 5px 15px;
     border-radius: 3px;
     margin-left: 15px;
     margin-top: 20px;
@@ -982,6 +1030,10 @@ a:active {
 .see-more >a {
     font-size: 14px;
     color: #666;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 5px 15px;
 }
 
 
@@ -1212,29 +1264,237 @@ a:active {
 
 /*---------- news end -----------*/ 
 
+/*---------- team start -----------*/ 
+.team-content {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+.team-four {
+    height: auto;
+    background: rgba(0,0,0,0);
+    margin: 0; 
+    margin-right: 15px;
+    height: auto;
+}
+.team-center {
+    text-align: center;
+    line-height: 30px;
+    background: rgba(255,255,255,255);
+}
+.team-center >img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.team-center >span {
+    display: inline-block;
+    color: #444;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.team-center >p{
+    color: #444;
+    font-weight: 700;
+    font-size: 16px;
+}
+.team-center >p i {
+    font-style: normal;
+    padding-left: 5px;
+    font-weight: 500;
+}
+.txt-team {
+    background: rgba(66, 123, 132, 0.55);
+    padding-top: 15%;
+}
+.txt-team p {
+    line-height: 27px;
+}
+.team-more {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 2px;
+}
+.team-more >a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 25px;
+}
+.team-more:hover {
+    background: #fff;
+}
+
+.team-more span {
+    color: #fff;
+}
+.team-more span i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-style: normal;
+    margin-left: 7px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 2px;
+    font-size: 6px;
+}
+
+.team-jump {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team-jump >p {
+    display: inline-block;
+    background:  #427B84;
+    border-radius: 6px;
+}
+.team-jump >p >a {
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    padding: 13px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.team-leader {
+    background: rgba(255,255,255,0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.team-top {
+    margin: 0; 
+}
+.team-top-only {
+    padding-bottom: 20px;
+}
+.left-people >img {
+    width: 100%;
+}
+.left-people {
+    margin-right: 20px;
+}
+
+.ov-fl .people-list {
+    padding: 0;   
+}
+.ov-fl .col-sm-7 {
+    width: 49% !important; 
+    margin-right: 8%;   
+}
+.people-list li {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.people-list li i {
+    color: #427B84;
+    margin-right: 7px;
+    margin-top: 3px;
+    font-style: normal;
+    float: left;
+}
+.people-list li> span {
+    font-size: 14px;
+    width: 95%;
+    float: right;
+    line-height: 25px;
+}
+.pull-people {
+    width: 35%;
+}
+.pull-list {
+    width: 65%;
+}
+.people-list li p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-left: 16px;
+}
+
+.before-position {
+    color: #427B84;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.ov-fl {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+.ov-bottom {
+    position: relative;
+}
+.ov-bottom >img {
+    width: 4%;
+    position: absolute;
+    padding: 5px;
+    background: #e6e6e6;
+}
+.ov-bottom >img:nth-of-type(1) {
+    top: 0;
+    left: 0;
+}
+.ov-bottom >img:nth-of-type(2) {
+    top: 77%;
+    right: 0;
+}
+.ov-bottom >p {
+    text-align: center;
+    padding: 20px 40px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #427B84;
+    border: 1px solid #427B84;
+}
+
+.team-bottom {
+    margin: 0;
+}
+.team-only {
+    width: 18%;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    float: left;
+    margin-right: 28px;
+}
+.team-bottom .team-only:last-child {
+    margin-right: 0;
+}
+.team-only .pull-left >img {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.team-only .pull-left p:nth-of-type(1) {
+    font-weight: 700;
+}
+.team-only .clearfix {
+    margin-bottom: 7px;
+}
+.team-only >p {
+    color: #444;
+    line-height: 25px;
+}
+.team-only p {
+    font-size: 14px;
+}
+
+
+
+
+
+/*---------- team end -----------*/ 
 
 
 /***================  响应式  ================***/
 /*---------- 手机 --------*/ 
-@media screen and (max-width:320px) {
-    .tab1-img span {
-        margin-right: 0;
-    }
-    .con-four{
-        height: 220px;
-    }
-
-    .con-four .icon-center {
-        line-height: 240px;
-    }
-    .project-title .fl span {
-        font-size: 16px;
-    }
-    .business-box .tab1-title .fl {
-        width: 106px;
-    }
-
-}
 
 @media screen and (max-width:767px) {
     .head-v3 {
@@ -1280,10 +1540,6 @@ a:active {
     .header .top-nav-ul li a {
         padding: 0 10px;
     }
-
-    .con-four{
-        height: 185px;
-    }    
     .news-info .info-title h2 {
         text-align: center;
     }
@@ -1421,6 +1677,7 @@ a:active {
     }
     .contentbox-four .col-xs-12 {
         width: 100%;
+        margin-bottom: 10px;
     }
     .contentbox-four .con-four:nth-of-type(1) {
         margin-top: 20px;
@@ -1536,9 +1793,61 @@ a:active {
     }
 
 
+    .team-only {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pull-people {
+        float: none !important;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .left-people {
+        margin-right: 0;
+    }
+    .ov-fl .col-sm-7 {
+        width: 100% !important;
+    }
+    .pull-list {
+        width: 100%;
+    }
+
+    .ov-bottom >img:nth-of-type(2) {
+        top: 85%;
+    }
+    .ov-bottom >img {
+        width: 9%;
+        background: #f3f2f3;
+    }
 
 
  
+}
+
+@media screen and (max-width:320px) {
+    .tab1-img span {
+        margin-right: 0;
+    }
+    .con-four{
+        height: 220px;
+    }
+
+    .con-four .icon-center {
+        line-height: 240px;
+    }
+    .project-title .fl span {
+        font-size: 16px;
+    }
+    .business-box .tab1-title .fl {
+        width: 106px;
+    }
+    .ov-bottom >img:nth-of-type(2) {
+        top: 90%;
+    }
+
+
+
+
 }
 /*---------- pc小屏幕 --------*/ 
 @media screen and (min-width: 1140px) and (max-width: 1200px) {
@@ -1758,6 +2067,24 @@ a:active {
         margin-bottom: 20px;
     }
 
+
+    .con-four {
+        margin-bottom: 10px;
+    }
+    .team-only {
+        width: 29%;
+        margin-bottom: 20px;
+    }
+    .ov-fl .col-sm-7 {
+        width: 53% !important;
+        margin-right: 0;
+    }
+    .people-list li> span {
+        width: 92%;
+    }
+    .ov-bottom >img {
+        width: 7%;
+    }
 
 
 }
