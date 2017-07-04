@@ -165,7 +165,7 @@ s, i, em {
     font-weight: 200;
 }
 .top-nav-ul .col-sm-2 {
-    width: 16.5%;
+    width: auto;
     text-align: center;
     padding: 0;
 }
@@ -174,6 +174,7 @@ s, i, em {
     height: 100%;
     font-size: 16px;
     color: #222;
+    padding: 0 35px;
 }
 
 .header .top-nav-ul li a:hover {
@@ -433,6 +434,7 @@ html,body,.banner,.banner-content{
 /*最新资讯开始*/
 .news-info {
     display: none;
+    padding: 20px 0;
 }
 
 .news-info .info-title h2 {
@@ -441,7 +443,8 @@ html,body,.banner,.banner-content{
 }
 
 .news-info > .container > .row {
-    padding: 25px 0 20px 0;
+    padding: 25px 0 20px 14px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .news-info .info-content {
@@ -529,6 +532,10 @@ html,body,.banner,.banner-content{
 /*最新资讯结束*/
 
 /*媒体视频开始*/
+.news-video {
+    padding: 0;
+}
+
 .news-video .info-title {
     margin-bottom: 20px;
 }
@@ -926,6 +933,10 @@ html,body,.banner,.banner-content{
     .glory .drop {
         margin-left: -30px;
     }
+
+    .navigation-up .navigation-v3 li h2 a {
+        padding: 0 18px;
+    }
     
 }
 
@@ -947,13 +958,19 @@ html,body,.banner,.banner-content{
     }
 }
 
-
+@media screen and (min-width: 992px) and (max-width: 1140px) {
+    .nav-l1 {
+        margin-left: 28% !important;
+    }
+    .nav-l2 {
+        margin-left: 38% !important;
+    }
+}
 
 
 .index-bkg {
     background-image: url(../images/index-bg_02.png);
     width: 100%;
-    height: 100%;
     overflow: hidden;
     background-size:cover;
 }
