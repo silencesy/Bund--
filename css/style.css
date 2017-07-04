@@ -1811,11 +1811,12 @@ a:active {
     }
     
     .bg-half {
-        width: 100%;
+        width: 90%;
+        margin: 0 20px 20px 20px;
     }
 
     .bg-circle {
-        margin: 0 0 20px 0;
+        margin: 0 20px 20px 20px;
     }
     .bg-p {
         top: -7%;
@@ -1865,7 +1866,15 @@ a:active {
         width: 9%;
         background: #f3f2f3;
     }
-
+    .contact-content .contact-div {
+        margin-left: 22%;
+    }
+    .txt-four {
+        padding-top: 14px;
+    }
+    .all-title .fr a {
+        padding: 0 15px;
+    }
 
  
 }
@@ -1890,7 +1899,9 @@ a:active {
     .ov-bottom >img:nth-of-type(2) {
         top: 90%;
     }
-
+    .contact-content .contact-div {
+        margin-left: 12%;
+    }
 
 
 
