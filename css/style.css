@@ -1302,6 +1302,22 @@ a:active {
     margin: 20px 15%;
 }
 
+.page-run {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pagination {
+    margin: 0;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #666;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    background-color: #e1e1e1;
+    border-color: #e1e1e1;
+    color: #b4b4b4;
+}
+
 /*---------- news end -----------*/ 
 
 /*---------- team start -----------*/ 
